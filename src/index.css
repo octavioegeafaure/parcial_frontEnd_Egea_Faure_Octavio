@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'AdineuePRO',Helvetica, sans-serif;
+}
+
+header {
+  padding: 20px 38px;
+}
+
+header h1{
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 28px;
+}
+header p {
+  font-size: 19px;
+  margin-left: 2px;
+  font-weight: 600;
+}
+header p span {
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.cajaDescuento{
+  background-color: #e7e7e2;
+  font-size: 18px;
+  border: 0.5px solid black;
+  padding: 25px;
+  margin-left: 40px;
+  width: 94.5%;
+}
+.cajaDescuento p {
+  padding-top: 15px;
+}
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.producto {
+  border: 0.5px solid black;
+  padding: 20px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.producto h5{
+  text-align: center;
+}
+.producto img{
+  width: 80%;
+  padding-left: 50px;
+}
+.producto h5 span{
+  background-color: rgb(212, 207, 207);
+  font-weight: lighter;
+  color: rgb(20, 20, 20);
+}
+.producto button{
+  padding: 5px;  
+}
+.sinStock{
+  cursor: not-allowed;
+}
+
+
+
+/*hacer el boton de compra blanco y con el hover cambia de color*/
